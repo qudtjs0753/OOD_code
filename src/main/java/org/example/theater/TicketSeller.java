@@ -1,4 +1,4 @@
-package org.example;
+package org.example.theater;
 
 public class TicketSeller {
     private TicketOffice ticketOffice;
@@ -7,7 +7,7 @@ public class TicketSeller {
         this.ticketOffice = ticketOffice;
     }
 
-    public TicketOffice getTicketOffice() {
-        return ticketOffice;
+    public void sellTo(Audience audience) {
+        ticketOffice.sellTicketTo(audience);
     }
 }
