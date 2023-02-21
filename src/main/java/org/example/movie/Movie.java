@@ -20,7 +20,10 @@ public class Movie {
     }
 
     public Money calculateMovieFee(Screening screening) {
-        //discountPolicy는 두개이지만, 어떤 것을 사용할 지 결정하는 코드가 존재하지 않는다.
         return fee.minus(discountPolicy.calculateDiscountAmount(screening));
+    }
+
+    public void changeDiscountPolicy(DiscountPolicy discountPolicy) {
+        this.discountPolicy = discountPolicy;
     }
 }
