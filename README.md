@@ -3,5 +3,8 @@
 
 [1장 pull request](https://github.com/qudtjs0753/OOD_code/pull/1)
 
-[2장 pull request](https://github.com/qudtjs0753/OOD_code/pull/2)
+[2장 기본코드 pull request](https://github.com/qudtjs0753/OOD_code/pull/2)
+
+[2장 인터페이스 수정판 pull request](https://github.com/qudtjs0753/OOD_code/pull/3)
+
 
